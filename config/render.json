@@ -1,0 +1,14 @@
+{
+  "fps": 24,
+  "formats": {
+    "vertical": { "width": 1080, "height": 1920 },
+    "wide": { "width": 1920, "height": 1080 }
+  },
+  "captionSafeZone": { "top": 0.6, "bottom": 0.78 },
+  "audio": {
+    "loudnessLufs": -14,
+    "truePeakDb": -1,
+    "musicUnderVoiceDb": -18
+  },
+  "wordsPerSecond": 2.6
+}

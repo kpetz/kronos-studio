@@ -1,0 +1,17 @@
+{
+  "voice": {
+    "provider": "gemini-tts",
+    "model": null,
+    "requestDelayMs": 7000
+  },
+  "image": {
+    "provider": "handoff",
+    "creditsPerStill": null
+  },
+  "video": {
+    "provider": "handoff",
+    "creditsPerClip": null,
+    "maxClipSec": 8,
+    "maxClipsPerEpisode": 4
+  }
+}

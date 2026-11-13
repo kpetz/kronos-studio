@@ -1,0 +1,33 @@
+{
+  "name": "kronos-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Production pipeline for the claymation series Kronos 2.0 — La Oficina",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "studio": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "remotion": "remotion"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.543",
+    "fast-xml-parser": "^5.12.0",
+    "fflate": "^0.8.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.543",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

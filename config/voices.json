@@ -1,0 +1,33 @@
+{
+  "voices": {
+    "narrador": {
+      "voiceName": null,
+      "style": "voz grave, monótona, de documental serio, español latino neutro"
+    },
+    "kronos": {
+      "voiceName": null,
+      "style": "voz sintética, amable, sin emoción, ritmo constante, español latino neutro",
+      "effects": ["kronos"]
+    },
+    "junior": {
+      "voiceName": null,
+      "style": "voz aguda, acelerada, casi sin aire, español latino neutro"
+    },
+    "jefe": {
+      "voiceName": null,
+      "style": "voz chillona, a gritos, español latino neutro"
+    },
+    "casandra": {
+      "voiceName": null,
+      "style": "voz cansada, plana, español latino neutro"
+    },
+    "cliente": {
+      "voiceName": null,
+      "style": "voz grave, a gritos, español latino neutro"
+    },
+    "legal": {
+      "voiceName": null,
+      "style": "voz lenta, formal, sin pausas, español latino neutro"
+    }
+  }
+}

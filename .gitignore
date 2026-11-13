@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules/
+out/
+dist/
+*.tsbuildinfo
+
+# caches and large intermediate media
+.cache/
+.remotion/
+episodes/**/inbox/
+episodes/**/handoff/refs/
+*.log
+
+# OS
+.DS_Store
