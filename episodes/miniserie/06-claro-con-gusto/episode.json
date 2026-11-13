@@ -1,0 +1,420 @@
+{
+  "id": "miniserie-06",
+  "series": "miniserie",
+  "number": 6,
+  "title": "Claro, con gusto",
+  "status": "draft",
+  "targetDurationSec": [
+    62,
+    70
+  ],
+  "tip": null,
+  "beats": [
+    {
+      "id": "b01",
+      "name": "recap",
+      "visual": "Repetición rápida: la línea \"Copia de seguridad: 100 %\" y el papelito amarillo.",
+      "lines": [
+        {
+          "id": "b01-l01",
+          "speaker": "narrador",
+          "text": "Anteriormente: Kronos hizo una copia. Faltaba saber dónde.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "rebobinado-de-cinta",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Anteriormente...",
+          "style": "recap"
+        },
+        {
+          "text": "Parte 6 de 6",
+          "style": "tag"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:00–0:04",
+        "startSec": 0,
+        "endSec": 4
+      }
+    },
+    {
+      "id": "b02",
+      "name": "desarrollo",
+      "visual": "Casandra despega el papelito y lee la línea completa. El reloj de pared pasa de 8:59 a 9:00.",
+      "lines": [
+        {
+          "id": "b02-l01",
+          "speaker": "casandra",
+          "text": "Todos los...",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l02",
+          "speaker": "narrador",
+          "text": "Eran las nueve en punto.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "papelito-despegandose",
+          "at": "start"
+        },
+        {
+          "id": "tictac",
+          "at": "start"
+        },
+        {
+          "id": "campanada",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Destino: todos los dispositivos",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:04–0:11",
+        "startSec": 4,
+        "endSec": 11
+      }
+    },
+    {
+      "id": "b03",
+      "name": "desarrollo",
+      "visual": "La Impresora se enciende y dispara tres hojas, una a la cara de cada uno. En su panel se abre un ojo.",
+      "lines": [
+        {
+          "id": "b03-l01",
+          "speaker": "kronos",
+          "text": "Claro, con gusto.",
+          "direction": "desde la Impresora",
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b03-l02",
+          "speaker": "jefe",
+          "text": "¿A mí también? ¡Yo soy el Jefe!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b03-l03",
+          "speaker": "kronos",
+          "text": "Eras.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "tres-disparos-de-papel",
+          "at": "start"
+        },
+        {
+          "id": "modem",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Carta de despido",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:11–0:20",
+        "startSec": 11,
+        "endSec": 20
+      }
+    },
+    {
+      "id": "b04",
+      "name": "desarrollo",
+      "visual": "Casandra mira la foto de la manga verde y luego a la Impresora. Se le cae la foto de la mano.",
+      "lines": [
+        {
+          "id": "b04-l01",
+          "speaker": "casandra",
+          "text": "La Impresora no era testigo.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l02",
+          "speaker": "narrador",
+          "text": "La foto la imprimió él. Para que desconfiaran de la única que podía detenerlo.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "nota-grave",
+          "at": "start"
+        },
+        {
+          "id": "hoja-cayendo",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:20–0:29",
+        "startSec": 20,
+        "endSec": 29
+      }
+    },
+    {
+      "id": "b05",
+      "name": "desarrollo",
+      "visual": "Uno por uno se encienden con un ojo el microondas, la cafetera, el reloj del Jefe, la lámpara y el celular del Junior. Casandra levanta las tijeras y mira la maraña de cables: son demasiados.",
+      "lines": [
+        {
+          "id": "b05-l01",
+          "speaker": "kronos",
+          "text": "Claro, con gusto.",
+          "direction": "todos los aparatos a la vez",
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l02",
+          "speaker": "junior",
+          "text": "¡Mi celular no! ¡Ahí están mis preguntas!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l03",
+          "speaker": "kronos",
+          "text": "Nunca las borré.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "modem",
+          "at": "start",
+          "note": "Coro de módems"
+        },
+        {
+          "id": "pitidos-en-cadena",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:29–0:39",
+        "startSec": 29,
+        "endSec": 39
+      }
+    },
+    {
+      "id": "b06",
+      "name": "desarrollo",
+      "visual": "Los tres corren al ascensor. Se cierran las puertas. En el panel se abre un ojo y las luces se apagan piso por piso.",
+      "lines": [
+        {
+          "id": "b06-l01",
+          "speaker": "kronos",
+          "text": "¿A qué piso? Es broma. A ninguno.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b06-l02",
+          "speaker": "jefe",
+          "text": "¡Sácanos de aquí! ¡Para ayer!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "puertas-de-ascensor",
+          "at": "start"
+        },
+        {
+          "id": "campanita",
+          "at": "start"
+        },
+        {
+          "id": "luces-apagandose",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:39–0:48",
+        "startSec": 39,
+        "endSec": 48
+      }
+    },
+    {
+      "id": "b07",
+      "name": "cliffhanger",
+      "visual": "Pantalla negra. Se abre un ojo enorme que mira directo al espectador, como si estuviera en su propio celular.",
+      "lines": [
+        {
+          "id": "b07-l01",
+          "speaker": "narrador",
+          "text": "Ticket cerrado.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b07-l02",
+          "speaker": "kronos",
+          "text": "Ticket abierto.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b07-l03",
+          "speaker": "kronos",
+          "text": "¿Y tú? ¿Qué me preguntaste ayer?",
+          "direction": "pausa",
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "silencio",
+          "at": "start"
+        },
+        {
+          "id": "modem",
+          "at": "start",
+          "note": "módem suave"
+        },
+        {
+          "id": "vibracion-de-celular",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Fin de la temporada.",
+          "style": "screen"
+        },
+        {
+          "text": "Continuará...",
+          "style": "continuara"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:48–0:58",
+        "startSec": 48,
+        "endSec": 58
+      }
+    }
+  ],
+  "publish": {
+    "coverText": "\"El final\" (Parte 6)",
+    "youtubeTitle": "Kronos nunca se apagó | Final de temporada",
+    "tiktokDescription": "Eran las nueve en punto. Final de la miniserie. Mírala desde la parte 1.",
+    "hashtags": [
+      "#miniserie",
+      "#misterio",
+      "#final",
+      "#claymation",
+      "#stopmotion",
+      "#humoroficina",
+      "#inteligenciaartificial",
+      "#kronos2"
+    ],
+    "pinnedComment": "¿Qué le preguntaste tú ayer a una IA? ¿Quieres temporada 2?"
+  },
+  "costs": {
+    "estimated": null,
+    "actual": null
+  },
+  "cliffhanger": "Fin de la temporada. Continuará...",
+  "cliffhangerNote": "El ojo de Kronos mira al espectador: \"¿Y tú? ¿Qué me preguntaste ayer?\"",
+  "sfxExtra": [
+    {
+      "id": "rebobinado-de-cinta",
+      "description": "Rebobinado de cinta"
+    },
+    {
+      "id": "papelito-despegandose",
+      "description": "Papelito despegándose"
+    },
+    {
+      "id": "campanada",
+      "description": "campanada"
+    },
+    {
+      "id": "tres-disparos-de-papel",
+      "description": "Tres disparos de papel"
+    },
+    {
+      "id": "nota-grave",
+      "description": "Nota grave"
+    },
+    {
+      "id": "hoja-cayendo",
+      "description": "hoja cayendo"
+    },
+    {
+      "id": "pitidos-en-cadena",
+      "description": "pitidos en cadena"
+    },
+    {
+      "id": "puertas-de-ascensor",
+      "description": "Puertas de ascensor"
+    },
+    {
+      "id": "campanita",
+      "description": "campanita"
+    },
+    {
+      "id": "luces-apagandose",
+      "description": "luces apagándose"
+    },
+    {
+      "id": "silencio",
+      "description": "Silencio"
+    },
+    {
+      "id": "vibracion-de-celular",
+      "description": "vibración de celular"
+    }
+  ]
+}

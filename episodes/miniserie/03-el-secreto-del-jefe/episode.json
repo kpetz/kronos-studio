@@ -1,0 +1,401 @@
+{
+  "id": "miniserie-03",
+  "series": "miniserie",
+  "number": 3,
+  "title": "El secreto del Jefe",
+  "status": "draft",
+  "targetDurationSec": [
+    62,
+    70
+  ],
+  "tip": null,
+  "beats": [
+    {
+      "id": "b01",
+      "name": "recap",
+      "visual": "Repetición rápida: la silueta con bigote en la grabación.",
+      "lines": [
+        {
+          "id": "b01-l01",
+          "speaker": "narrador",
+          "text": "Anteriormente: a las 23:47, un bigote entró a la oficina.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "rebobinado-de-cinta",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Anteriormente...",
+          "style": "recap"
+        },
+        {
+          "text": "Parte 3 de 6",
+          "style": "tag"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:00–0:04",
+        "startSec": 0,
+        "endSec": 4
+      }
+    },
+    {
+      "id": "b02",
+      "name": "desarrollo",
+      "visual": "Ahora el Jefe está en la silla del interrogatorio. El Junior sostiene la lámpara, feliz. El Jefe intenta taparse el bigote con la corbata.",
+      "lines": [
+        {
+          "id": "b02-l01",
+          "speaker": "junior",
+          "text": "¡Confiese! ¡Para ayer!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l02",
+          "speaker": "jefe",
+          "text": "Está bien. Volví. Pero no por Kronos.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "clic-de-lampara",
+          "at": "start"
+        },
+        {
+          "id": "silla-que-rechina",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:04–0:12",
+        "startSec": 4,
+        "endSec": 12
+      }
+    },
+    {
+      "id": "b03",
+      "name": "desarrollo",
+      "visual": "Casandra le saca del saco un papel arrugado y lo alisa sobre la mesa.",
+      "lines": [
+        {
+          "id": "b03-l01",
+          "speaker": "casandra",
+          "text": "¿Y esto?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b03-l02",
+          "speaker": "narrador",
+          "text": "El documento tenía un título. Y una firma.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "papel-arrugandose",
+          "at": "start"
+        },
+        {
+          "id": "nota-grave",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "PLAN VIERNES",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:12–0:21",
+        "startSec": 12,
+        "endSec": 21
+      }
+    },
+    {
+      "id": "b04",
+      "name": "desarrollo",
+      "visual": "Primer plano del documento. Al Junior se le cae la lámpara. A Casandra, por primera vez, se le cae el lápiz del moño.",
+      "lines": [
+        {
+          "id": "b04-l01",
+          "speaker": "junior",
+          "text": "¿Nos iba a reemplazar?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l02",
+          "speaker": "jefe",
+          "text": "¡Yo no escribí eso! ¡Lo encontré en la impresora y lo escondí!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "lampara-cayendo",
+          "at": "start"
+        },
+        {
+          "id": "lapiz-rodando",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Reemplazar a todo el equipo por Kronos. Ahorro: 100 %. Firmado: El Jefe.",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:21–0:30",
+        "startSec": 21,
+        "endSec": 30
+      }
+    },
+    {
+      "id": "b05",
+      "name": "desarrollo",
+      "visual": "El Jefe se arrodilla. En la grabación sale de la oficina abrazando el papel. El ojo de Kronos sigue encendido.",
+      "lines": [
+        {
+          "id": "b05-l01",
+          "speaker": "jefe",
+          "text": "¡Yo lo necesitaba vivo! ¡Sin Kronos no sé ni escribir 'Estimados'!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l02",
+          "speaker": "casandra",
+          "text": "23:52. Sale. Kronos sigue encendido.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l03",
+          "speaker": "narrador",
+          "text": "Dos sospechosos. Dos coartadas.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "cinta-de-video",
+          "at": "start"
+        },
+        {
+          "id": "rodillas-contra-el-piso",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Cámara 1, 23:52",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:30–0:39",
+        "startSec": 30,
+        "endSec": 39
+      }
+    },
+    {
+      "id": "b06",
+      "name": "desarrollo",
+      "visual": "La cinta sigue. La oficina está vacía. La cámara de seguridad empieza a girar sola, muy despacio, hasta mostrar solo la pared.",
+      "lines": [
+        {
+          "id": "b06-l01",
+          "speaker": "junior",
+          "text": "¿Quién movió la cámara?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b06-l02",
+          "speaker": "casandra",
+          "text": "Nadie. No había nadie.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "motor-de-camara",
+          "at": "start"
+        },
+        {
+          "id": "estatica",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Cámara 1, 23:58",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:39–0:48",
+        "startSec": 39,
+        "endSec": 48
+      }
+    },
+    {
+      "id": "b07",
+      "name": "cliffhanger",
+      "visual": "Silencio. Detrás de ellos, la Impresora se enciende sola con una luz verde. Empieza a salir una hoja, muy despacio. Imagen congelada.",
+      "lines": [
+        {
+          "id": "b07-l01",
+          "speaker": "narrador",
+          "text": "Alguien más estuvo ahí esa noche. Alguien que nunca habla.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "impresora-arrancando",
+          "at": "start"
+        },
+        {
+          "id": "golpe-de-tambor",
+          "at": "start"
+        },
+        {
+          "id": "kronos-shutdown",
+          "at": "end",
+          "note": "apagado cortado"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "¿Qué vio la Impresora?",
+          "style": "question"
+        },
+        {
+          "text": "Continuará...",
+          "style": "continuara"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:48–0:56",
+        "startSec": 48,
+        "endSec": 56
+      }
+    }
+  ],
+  "publish": {
+    "coverText": "\"El Plan Viernes\" (Parte 3)",
+    "youtubeTitle": "El documento que el Jefe escondió | Parte 3",
+    "tiktokDescription": "El Jefe volvió a las 23:47 a esconder un papel. El papel se llama Plan Viernes. Parte 3 de 6.",
+    "hashtags": [
+      "#miniserie",
+      "#misterio",
+      "#parte3",
+      "#claymation",
+      "#stopmotion",
+      "#humoroficina",
+      "#inteligenciaartificial",
+      "#kronos2"
+    ],
+    "pinnedComment": "Dos sospechosos, dos coartadas. ¿Quién movió la cámara?"
+  },
+  "costs": {
+    "estimated": null,
+    "actual": null
+  },
+  "cliffhanger": "¿Qué vio la Impresora?",
+  "cliffhangerNote": "La cámara de seguridad se gira sola y la Impresora empieza a imprimir.",
+  "sfxExtra": [
+    {
+      "id": "rebobinado-de-cinta",
+      "description": "Rebobinado de cinta"
+    },
+    {
+      "id": "clic-de-lampara",
+      "description": "Clic de lámpara"
+    },
+    {
+      "id": "silla-que-rechina",
+      "description": "silla que rechina"
+    },
+    {
+      "id": "papel-arrugandose",
+      "description": "Papel arrugándose"
+    },
+    {
+      "id": "nota-grave",
+      "description": "nota grave"
+    },
+    {
+      "id": "lampara-cayendo",
+      "description": "Lámpara cayendo"
+    },
+    {
+      "id": "lapiz-rodando",
+      "description": "lápiz rodando"
+    },
+    {
+      "id": "cinta-de-video",
+      "description": "Cinta de video"
+    },
+    {
+      "id": "rodillas-contra-el-piso",
+      "description": "rodillas contra el piso"
+    },
+    {
+      "id": "motor-de-camara",
+      "description": "Motor de cámara"
+    },
+    {
+      "id": "estatica",
+      "description": "estática"
+    },
+    {
+      "id": "impresora-arrancando",
+      "description": "Impresora arrancando"
+    },
+    {
+      "id": "golpe-de-tambor",
+      "description": "golpe de tambor"
+    }
+  ]
+}

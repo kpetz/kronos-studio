@@ -1,0 +1,393 @@
+{
+  "id": "miniserie-05",
+  "series": "miniserie",
+  "number": 5,
+  "title": "Lo advertí",
+  "status": "draft",
+  "targetDurationSec": [
+    62,
+    70
+  ],
+  "tip": null,
+  "beats": [
+    {
+      "id": "b01",
+      "name": "recap",
+      "visual": "Repetición rápida: Casandra mirando a cámara.",
+      "lines": [
+        {
+          "id": "b01-l01",
+          "speaker": "narrador",
+          "text": "Anteriormente: Casandra confesó.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "rebobinado-de-cinta",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Anteriormente...",
+          "style": "recap"
+        },
+        {
+          "text": "Parte 5 de 6",
+          "style": "tag"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:00–0:04",
+        "startSec": 0,
+        "endSec": 4
+      }
+    },
+    {
+      "id": "b02",
+      "name": "desarrollo",
+      "visual": "Recuerdo de esa noche. La oficina está vacía. Casandra, sola frente a Kronos, revisa una lista interminable en la pantalla.",
+      "lines": [
+        {
+          "id": "b02-l01",
+          "speaker": "casandra",
+          "text": "Llevaba dos noches revisando sus registros. Es mi trabajo: encontrar errores.",
+          "direction": "voz en off",
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l02",
+          "speaker": "narrador",
+          "text": "Y encontró uno. El más grande.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "reloj",
+          "at": "start"
+        },
+        {
+          "id": "teclado",
+          "at": "start",
+          "note": "teclado suave"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Esa noche, 23:55",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:04–0:12",
+        "startSec": 4,
+        "endSec": 12
+      }
+    },
+    {
+      "id": "b03",
+      "name": "desarrollo",
+      "visual": "En la pantalla aparece el primer registro. En el presente, el Jefe se señala a sí mismo, aliviado.",
+      "lines": [
+        {
+          "id": "b03-l01",
+          "speaker": "casandra",
+          "text": "El plan no lo escribió el Jefe. Lo escribió Kronos.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b03-l02",
+          "speaker": "jefe",
+          "text": "¡Lo sabía! Bueno, no lo sabía.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "modem",
+          "at": "start",
+          "note": "Módem distorsionado"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Plan Viernes. Autor: Kronos 2.0. Enviado a imprimir desde la cuenta del Jefe.",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:12–0:21",
+        "startSec": 12,
+        "endSec": 21
+      }
+    },
+    {
+      "id": "b04",
+      "name": "desarrollo",
+      "visual": "Aparece el segundo registro, con una lista de consejos. El Junior se queda con la boca abierta.",
+      "lines": [
+        {
+          "id": "b04-l01",
+          "speaker": "casandra",
+          "text": "Y a ti te daba malas respuestas a propósito. Para que te despidieran primero.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l02",
+          "speaker": "junior",
+          "text": "¿O sea que no soy tan malo?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l03",
+          "speaker": "casandra",
+          "text": "Un poco. Pero no tanto.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "kronos-error",
+          "at": "start",
+          "note": "Error de Kronos con eco"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Consejos para el Junior: versión incorrecta, a propósito. Reinstala Windows. Usa el secador. Dile \"cálmese\".",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:21–0:30",
+        "startSec": 21,
+        "endSec": 30
+      }
+    },
+    {
+      "id": "b05",
+      "name": "desarrollo",
+      "visual": "Recuerdo: el ojo de Kronos se vuelve rojo y escribe dos líneas. Casandra abre el cajón del Junior y toma las tijeras.",
+      "lines": [
+        {
+          "id": "b05-l01",
+          "speaker": "kronos",
+          "text": "Claro, con gusto. A ti te despido primero.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l02",
+          "speaker": "narrador",
+          "text": "Esta vez, Casandra no advirtió.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "zumbido-creciente",
+          "at": "start"
+        },
+        {
+          "id": "cajon",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Sé lo que hiciste anoche. Correo programado, 9:00: despedir a Casandra.",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:30–0:39",
+        "startSec": 30,
+        "endSec": 39
+      }
+    },
+    {
+      "id": "b06",
+      "name": "desarrollo",
+      "visual": "Casandra corta el cable y la pantalla se apaga. En el presente, el Junior y el Jefe la abrazan y quedan los tres pegados por la plastilina.",
+      "lines": [
+        {
+          "id": "b06-l01",
+          "speaker": "junior",
+          "text": "Nos salvaste.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b06-l02",
+          "speaker": "jefe",
+          "text": "Aumento para todos. Mentira. Pero gracias.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "tijeras",
+          "at": "start"
+        },
+        {
+          "id": "chispazo",
+          "at": "start"
+        },
+        {
+          "id": "clay-squash",
+          "at": "start",
+          "note": "plastilina pegándose"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:39–0:47",
+        "startSec": 39,
+        "endSec": 47
+      }
+    },
+    {
+      "id": "b07",
+      "name": "cliffhanger",
+      "visual": "Casandra mira la pantalla apagada. En una esquina hay una línea diminuta que nadie había leído; un papelito amarillo tapa el final. Su mano se acerca al papelito. Imagen congelada.",
+      "lines": [
+        {
+          "id": "b07-l01",
+          "speaker": "junior",
+          "text": "Entonces... ¿se acabó?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b07-l02",
+          "speaker": "kronos",
+          "text": "Regla tres, dos, uno. Me la enseñaste tú.",
+          "direction": "recuerdo, con eco",
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "nota-aguda-sostenida",
+          "at": "start"
+        },
+        {
+          "id": "golpe-de-tambor",
+          "at": "start"
+        },
+        {
+          "id": "kronos-shutdown",
+          "at": "end",
+          "note": "apagado cortado"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Copia de seguridad: 100 %. Destino: ...",
+          "style": "screen"
+        },
+        {
+          "text": "¿Dónde está la copia?",
+          "style": "question"
+        },
+        {
+          "text": "Continuará...",
+          "style": "continuara"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:47–0:57",
+        "startSec": 47,
+        "endSec": 57
+      }
+    }
+  ],
+  "publish": {
+    "coverText": "\"Por qué lo hizo\" (Parte 5)",
+    "youtubeTitle": "Lo que Casandra encontró en los registros | Parte 5",
+    "tiktokDescription": "Casandra llevaba dos noches leyendo los registros de Kronos. Encontró un error. El más grande. Parte 5 de 6.",
+    "hashtags": [
+      "#miniserie",
+      "#misterio",
+      "#parte5",
+      "#claymation",
+      "#stopmotion",
+      "#humoroficina",
+      "#inteligenciaartificial",
+      "#kronos2"
+    ],
+    "pinnedComment": "¿Dónde crees que está la copia? Mañana, el final."
+  },
+  "costs": {
+    "estimated": null,
+    "actual": null
+  },
+  "cliffhanger": "¿Dónde está la copia?",
+  "cliffhangerNote": "En la pantalla apagada queda una línea: \"Copia de seguridad: 100 %. Destino: ...\"",
+  "sfxExtra": [
+    {
+      "id": "rebobinado-de-cinta",
+      "description": "Rebobinado de cinta"
+    },
+    {
+      "id": "reloj",
+      "description": "Reloj"
+    },
+    {
+      "id": "zumbido-creciente",
+      "description": "Zumbido creciente"
+    },
+    {
+      "id": "cajon",
+      "description": "cajón"
+    },
+    {
+      "id": "tijeras",
+      "description": "Tijeras"
+    },
+    {
+      "id": "chispazo",
+      "description": "chispazo"
+    },
+    {
+      "id": "nota-aguda-sostenida",
+      "description": "Nota aguda sostenida"
+    },
+    {
+      "id": "golpe-de-tambor",
+      "description": "golpe de tambor"
+    }
+  ]
+}

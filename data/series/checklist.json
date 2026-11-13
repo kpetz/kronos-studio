@@ -1,0 +1,62 @@
+[
+  {
+    "stage": "Guion",
+    "check": "El gancho se entiende en 3 segundos y sin sonido."
+  },
+  {
+    "stage": "Guion",
+    "check": "Hay un solo problema y un solo consejo por video."
+  },
+  {
+    "stage": "Guion",
+    "check": "El video dura entre 45 y 55 segundos."
+  },
+  {
+    "stage": "Grabación",
+    "check": "Los personajes se ven igual que en los videos anteriores."
+  },
+  {
+    "stage": "Grabación",
+    "check": "Formato vertical 9:16 y la acción principal en el centro."
+  },
+  {
+    "stage": "Edición",
+    "check": "Subtítulos grandes en todo el audio, sin tapar la acción."
+  },
+  {
+    "stage": "Edición",
+    "check": "El sello \"DATO REAL\" queda en pantalla al menos 3 segundos."
+  },
+  {
+    "stage": "Edición",
+    "check": "El video termina con \"Ticket cerrado\" y el apagado de Kronos."
+  },
+  {
+    "stage": "Edición",
+    "check": "El número de episodio se ve en el primer plano."
+  },
+  {
+    "stage": "Publicación",
+    "check": "Portada con el texto de la pestaña Publicación."
+  },
+  {
+    "stage": "Publicación",
+    "check": "Título, descripción y hashtags copiados de la pestaña Publicación."
+  },
+  {
+    "stage": "Publicación",
+    "check": "Comentario fijado publicado justo después de subir el video."
+  },
+  {
+    "stage": "Publicación",
+    "check": "Video agregado a la lista \"La Oficina\" en YouTube y TikTok."
+  },
+  {
+    "stage": "Después",
+    "check": "Responder los primeros comentarios durante la primera hora."
+  },
+  {
+    "stage": "Después",
+    "check": "Anotar los temas que pide el público para la temporada 2."
+  }
+]

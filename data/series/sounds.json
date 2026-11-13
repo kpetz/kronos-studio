@@ -1,0 +1,80 @@
+[
+  {
+    "id": "teclado",
+    "name": "Teclado mecánico",
+    "when": "Cada vez que el Junior escribe.",
+    "origin": "sheet"
+  },
+  {
+    "id": "modem",
+    "name": "Módem de los 90",
+    "when": "Cada vez que Kronos \"piensa\" antes de responder.",
+    "origin": "sheet"
+  },
+  {
+    "id": "kronos-error",
+    "name": "Error de Kronos",
+    "when": "Cuando la respuesta de Kronos sale mal.",
+    "origin": "sheet"
+  },
+  {
+    "id": "clay-squash",
+    "name": "Plastilina aplastada o estirada",
+    "when": "En todo golpe, caída o deformación.",
+    "origin": "sheet"
+  },
+  {
+    "id": "ding",
+    "name": "Ding",
+    "when": "Cuando algo por fin funciona o llega un mensaje.",
+    "origin": "sheet"
+  },
+  {
+    "id": "whoosh",
+    "name": "Whoosh",
+    "when": "Cuando se envía un correo o un mensaje.",
+    "origin": "sheet"
+  },
+  {
+    "id": "grillo",
+    "name": "Grillo",
+    "when": "En los silencios incómodos.",
+    "origin": "sheet"
+  },
+  {
+    "id": "tictac",
+    "name": "Tic-tac",
+    "when": "Cuando el Jefe presiona con el tiempo.",
+    "origin": "sheet"
+  },
+  {
+    "id": "lata",
+    "name": "Lata que se abre",
+    "when": "Transición a la oficina o al Junior nervioso.",
+    "origin": "sheet"
+  },
+  {
+    "id": "coro",
+    "name": "Coro celestial breve",
+    "when": "Cuando aparece la solución de Casandra, solo en momentos grandes.",
+    "origin": "sheet"
+  },
+  {
+    "id": "sello",
+    "name": "Sello de goma",
+    "when": "Cuando aparece \"DATO REAL\".",
+    "origin": "sheet"
+  },
+  {
+    "id": "kronos-shutdown",
+    "name": "Apagado de Kronos",
+    "when": "Cierre de todos los videos, después de \"Ticket cerrado\".",
+    "origin": "sheet"
+  },
+  {
+    "id": "kronos-boot",
+    "name": "Inicio de Kronos",
+    "when": "Cuando una computadora se enciende.",
+    "origin": "bible"
+  }
+]

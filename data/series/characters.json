@@ -1,0 +1,92 @@
+[
+  {
+    "id": "narrador",
+    "name": "Narrador",
+    "role": "Cuenta el problema y dice la moraleja. Lleva cerca del 60 % del audio.",
+    "look": "No aparece.",
+    "voice": "Grave, monótona, de documental serio.",
+    "catchphrase": "\"Ticket cerrado.\"",
+    "speaks": true,
+    "appears": false
+  },
+  {
+    "id": "kronos",
+    "name": "Kronos 2.0",
+    "role": "La IA de la oficina. Responde todo con seguridad total y casi siempre lo empeora.",
+    "look": "Monitor beige de los 90 con un solo ojo y una luz verde.",
+    "voice": "Sintética, amable, sin emoción.",
+    "catchphrase": "\"Claro, con gusto.\"",
+    "speaks": true,
+    "appears": true
+  },
+  {
+    "id": "junior",
+    "name": "El Junior",
+    "role": "Hace todo lo que dice Kronos sin leer. Provoca o agrava el problema.",
+    "look": "Pelo castaño revuelto, ojeras moradas enormes, sudor, buzo con capucha verde azulado.",
+    "voice": "Aguda, acelerada, casi sin aire.",
+    "catchphrase": "\"Ya quedó, creo.\"",
+    "speaks": true,
+    "appears": true
+  },
+  {
+    "id": "jefe",
+    "name": "El Jefe",
+    "role": "Exige lo imposible y se esconde cuando hay problemas. Recibe el golpe final.",
+    "look": "Pelo gris hacia atrás, bigote gris grueso, cejas enojadas, traje oscuro y corbata negra.",
+    "voice": "Chillona, a gritos.",
+    "catchphrase": "\"¡Para ayer!\"",
+    "speaks": true,
+    "appears": true
+  },
+  {
+    "id": "casandra",
+    "name": "Casandra",
+    "role": "Resuelve el problema con la solución simple. Es quien enseña el consejo.",
+    "look": "Lentes gruesos, moño con un lápiz, cárdigan verde oliva, carpeta de reportes.",
+    "voice": "Cansada, plana.",
+    "catchphrase": "Cartel: \"Lo advertí.\"",
+    "speaks": true,
+    "appears": true
+  },
+  {
+    "id": "impresora",
+    "name": "La Impresora",
+    "role": "La villana de la oficina. Aparece en los episodios 1, 6 y 8.",
+    "look": "Impresora beige con cara de pocos amigos y bandeja como boca.",
+    "voice": "No habla: gruñe, mastica y escupe.",
+    "catchphrase": "(gruñido)",
+    "speaks": false,
+    "appears": true
+  },
+  {
+    "id": "cliente",
+    "name": "El Cliente",
+    "role": "El cliente enojado del episodio 2.",
+    "look": "Siempre rojo de furia, con una vena que le crece en la frente.",
+    "voice": "Grave, a gritos.",
+    "catchphrase": "\"¡Hace dos semanas!\"",
+    "speaks": true,
+    "appears": true
+  },
+  {
+    "id": "legal",
+    "name": "Legal",
+    "role": "Abogada de la empresa. Aparece en el episodio 9.",
+    "look": "Traje gris, lentes pequeños y un pergamino infinito que arrastra por el piso.",
+    "voice": "Lenta, formal, sin pausas.",
+    "catchphrase": "\"Lo aceptó en los términos y condiciones.\"",
+    "speaks": true,
+    "appears": true
+  },
+  {
+    "id": "hacker",
+    "name": "El Hacker / El Estafador",
+    "role": "El atacante de los episodios 4 y 5. Es el mismo muñeco con otro fondo.",
+    "look": "Capucha negra, antifaz y sonrisa tranquila.",
+    "voice": "No habla: silba.",
+    "catchphrase": "(silbido despreocupado)",
+    "speaks": false,
+    "appears": true
+  }
+]

@@ -1,0 +1,405 @@
+{
+  "id": "miniserie-02",
+  "series": "miniserie",
+  "number": 2,
+  "title": "El sospechoso obvio",
+  "status": "draft",
+  "targetDurationSec": [
+    62,
+    70
+  ],
+  "tip": null,
+  "beats": [
+    {
+      "id": "b01",
+      "name": "recap",
+      "visual": "Repetición rápida: las tijeras en el cajón. Luego, una lámpara de escritorio se enciende en la cara del Junior.",
+      "lines": [
+        {
+          "id": "b01-l01",
+          "speaker": "narrador",
+          "text": "Anteriormente: Kronos fue desenchufado. Y las tijeras estaban en el cajón del Junior.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "rebobinado-de-cinta",
+          "at": "start"
+        },
+        {
+          "id": "clic-de-lampara",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Anteriormente...",
+          "style": "recap"
+        },
+        {
+          "text": "Parte 2 de 6",
+          "style": "tag"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:00–0:04",
+        "startSec": 0,
+        "endSec": 4
+      }
+    },
+    {
+      "id": "b02",
+      "name": "desarrollo",
+      "visual": "Interrogatorio. Casandra frente al Junior. El Jefe hace de policía malo: golpea la mesa y se lastima la mano.",
+      "lines": [
+        {
+          "id": "b02-l01",
+          "speaker": "casandra",
+          "text": "¿Para qué son las tijeras?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l02",
+          "speaker": "junior",
+          "text": "¡Para abrir los paquetes de latas! ¡Todos saben que están ahí!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l03",
+          "speaker": "jefe",
+          "text": "¡Confiesa! ¡Para ayer!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "golpe-en-la-mesa",
+          "at": "start"
+        },
+        {
+          "id": "quejido",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:04–0:12",
+        "startSec": 4,
+        "endSec": 12
+      }
+    },
+    {
+      "id": "b03",
+      "name": "desarrollo",
+      "visual": "El Junior se derrumba y llora lágrimas de plastilina. Recuerdo: él, de noche y de puntillas, escribiéndole a Kronos.",
+      "lines": [
+        {
+          "id": "b03-l01",
+          "speaker": "junior",
+          "text": "Sí volví anoche. Pero solo a borrar mi historial.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b03-l02",
+          "speaker": "narrador",
+          "text": "El Junior le había hecho a Kronos preguntas que nadie debía leer.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sollozo",
+          "at": "start"
+        },
+        {
+          "id": "pasos-de-puntillas",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Anoche, 23:30",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:12–0:21",
+        "startSec": 12,
+        "endSec": 21
+      }
+    },
+    {
+      "id": "b04",
+      "name": "desarrollo",
+      "visual": "En la pantalla del recuerdo aparecen sus preguntas una por una. El Jefe las lee sobre su hombro, ofendido.",
+      "lines": [
+        {
+          "id": "b04-l01",
+          "speaker": "jefe",
+          "text": "¿Que si puedo oler qué?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l02",
+          "speaker": "kronos",
+          "text": "Claro, con gusto. Historial eliminado.",
+          "direction": "recuerdo",
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "teclado",
+          "at": "start"
+        },
+        {
+          "id": "modem",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "¿Cómo pedir aumento sin llorar? ¿El Jefe puede oler el miedo? ¿Cuántas latas son demasiadas?",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:21–0:30",
+        "startSec": 21,
+        "endSec": 30
+      }
+    },
+    {
+      "id": "b05",
+      "name": "desarrollo",
+      "visual": "Casandra pone la grabación de seguridad en un televisor viejo. El Junior sale tropezando con una lata. El ojo de Kronos sigue encendido.",
+      "lines": [
+        {
+          "id": "b05-l01",
+          "speaker": "casandra",
+          "text": "23:40. Sales. Kronos sigue encendido.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l02",
+          "speaker": "narrador",
+          "text": "El Junior decía la verdad. Por primera vez.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "cinta-de-video",
+          "at": "start"
+        },
+        {
+          "id": "lata-rodando",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Cámara 1, 23:40",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:30–0:39",
+        "startSec": 30,
+        "endSec": 39
+      }
+    },
+    {
+      "id": "b06",
+      "name": "desarrollo",
+      "visual": "El Junior respira aliviado y abre una lata. Casandra deja correr la cinta. La puerta se abre y entra una sombra.",
+      "lines": [
+        {
+          "id": "b06-l01",
+          "speaker": "junior",
+          "text": "Entonces soy inocente.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b06-l02",
+          "speaker": "casandra",
+          "text": "Espera.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "lata",
+          "at": "start"
+        },
+        {
+          "id": "estatica",
+          "at": "start"
+        },
+        {
+          "id": "puerta-que-rechina",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Cámara 1, 23:47",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:39–0:48",
+        "startSec": 39,
+        "endSec": 48
+      }
+    },
+    {
+      "id": "b07",
+      "name": "cliffhanger",
+      "visual": "La sombra se detiene bajo la luz: una silueta con bigote. Imagen congelada. Todos giran hacia el Jefe, al que le tiembla el bigote.",
+      "lines": [
+        {
+          "id": "b07-l01",
+          "speaker": "narrador",
+          "text": "Siete minutos después entró alguien más. Alguien con bigote.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b07-l02",
+          "speaker": "jefe",
+          "text": "Hay mucha gente con bigote.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "golpe-de-tambor",
+          "at": "start"
+        },
+        {
+          "id": "kronos-shutdown",
+          "at": "end",
+          "note": "apagado de Kronos cortado"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "¿Fue el Jefe?",
+          "style": "question"
+        },
+        {
+          "text": "Continuará...",
+          "style": "continuara"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:48–0:56",
+        "startSec": 48,
+        "endSec": 56
+      }
+    }
+  ],
+  "publish": {
+    "coverText": "\"Lo que el Junior le preguntó a la IA\" (Parte 2)",
+    "youtubeTitle": "El Junior confiesa por qué volvió de noche | Parte 2",
+    "tiktokDescription": "El Junior volvió a la oficina a las 23:30. Dice que solo fue a borrar su historial. Parte 2 de 6.",
+    "hashtags": [
+      "#miniserie",
+      "#misterio",
+      "#parte2",
+      "#claymation",
+      "#stopmotion",
+      "#humoroficina",
+      "#inteligenciaartificial",
+      "#kronos2"
+    ],
+    "pinnedComment": "¿Cuál es la pregunta más vergonzosa que le hiciste a una IA?"
+  },
+  "costs": {
+    "estimated": null,
+    "actual": null
+  },
+  "cliffhanger": "¿Fue el Jefe?",
+  "cliffhangerNote": "En la grabación entra una sombra con bigote siete minutos después del Junior.",
+  "sfxExtra": [
+    {
+      "id": "rebobinado-de-cinta",
+      "description": "Rebobinado de cinta"
+    },
+    {
+      "id": "clic-de-lampara",
+      "description": "clic de lámpara"
+    },
+    {
+      "id": "golpe-en-la-mesa",
+      "description": "Golpe en la mesa"
+    },
+    {
+      "id": "quejido",
+      "description": "quejido"
+    },
+    {
+      "id": "sollozo",
+      "description": "Sollozo"
+    },
+    {
+      "id": "pasos-de-puntillas",
+      "description": "pasos de puntillas"
+    },
+    {
+      "id": "cinta-de-video",
+      "description": "Cinta de video"
+    },
+    {
+      "id": "lata-rodando",
+      "description": "lata rodando"
+    },
+    {
+      "id": "estatica",
+      "description": "estática"
+    },
+    {
+      "id": "puerta-que-rechina",
+      "description": "puerta que rechina"
+    },
+    {
+      "id": "golpe-de-tambor",
+      "description": "Golpe de tambor"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "id": "miniserie-01",
+  "series": "miniserie",
+  "number": 1,
+  "title": "Lunes, 8:59",
+  "status": "draft",
+  "targetDurationSec": [
+    62,
+    70
+  ],
+  "tip": null,
+  "beats": [
+    {
+      "id": "b01",
+      "name": "gancho",
+      "visual": "Oficina a oscuras. El monitor de Kronos está negro. Un cable cortado se balancea.",
+      "lines": [
+        {
+          "id": "b01-l01",
+          "speaker": "narrador",
+          "text": "Lunes, 8:59. Kronos no respondió. Nunca había pasado.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "zumbido-electrico-que-se-apaga",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Parte 1 de 6",
+          "style": "tag"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:00–0:03",
+        "startSec": 0,
+        "endSec": 3
+      }
+    },
+    {
+      "id": "b02",
+      "name": "desarrollo",
+      "visual": "El Junior escribe \"¿Hola?\" tres veces. El Jefe entra, ve la pantalla negra y se le cae el café.",
+      "lines": [
+        {
+          "id": "b02-l01",
+          "speaker": "junior",
+          "text": "¿Kronos?",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l02",
+          "speaker": "jefe",
+          "text": "¡Enciéndelo! ¡Tengo que responder un correo y no sé cómo empezar!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "teclado",
+          "at": "start"
+        },
+        {
+          "id": "taza-rompiendose",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:03–0:10",
+        "startSec": 3,
+        "endSec": 10
+      }
+    },
+    {
+      "id": "b03",
+      "name": "desarrollo",
+      "visual": "Casandra levanta el cable y lo mira con una lupa: el corte es limpio y recto.",
+      "lines": [
+        {
+          "id": "b03-l01",
+          "speaker": "casandra",
+          "text": "No se dañó. Lo cortaron.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b03-l02",
+          "speaker": "narrador",
+          "text": "Alguien en esta oficina desenchufó a Kronos. Para siempre.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "nota-grave-de-suspenso",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:10–0:18",
+        "startSec": 10,
+        "endSec": 18
+      }
+    },
+    {
+      "id": "b04",
+      "name": "desarrollo",
+      "visual": "La pantalla parpadea un segundo y muestra una última línea. Se apaga. Tres pares de ojos saltones se miran de reojo.",
+      "lines": [
+        {
+          "id": "b04-l01",
+          "speaker": "narrador",
+          "text": "Su último mensaje no era una respuesta. Era una acusación.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "chispazo",
+          "at": "start"
+        },
+        {
+          "id": "estatica",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Sé lo que hiciste anoche.",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:18–0:27",
+        "startSec": 18,
+        "endSec": 27
+      }
+    },
+    {
+      "id": "b05",
+      "name": "desarrollo",
+      "visual": "Casandra cierra la puerta con llave y se la guarda en el moño. Al fondo, la Impresora enciende una lucecita y la apaga.",
+      "lines": [
+        {
+          "id": "b05-l01",
+          "speaker": "casandra",
+          "text": "Nadie sale de esta oficina.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l02",
+          "speaker": "jefe",
+          "text": "¡Yo estaba en mi casa!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b05-l03",
+          "speaker": "junior",
+          "text": "¡Yo también! En la mía. No en la suya.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "cerradura",
+          "at": "start"
+        },
+        {
+          "id": "pitido-breve-de-la-impresora",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:27–0:36",
+        "startSec": 27,
+        "endSec": 36
+      }
+    },
+    {
+      "id": "b06",
+      "name": "desarrollo",
+      "visual": "Casandra abre el cajón del Junior: latas, más latas y unas tijeras con un pedacito de cable pegado.",
+      "lines": [
+        {
+          "id": "b06-l01",
+          "speaker": "narrador",
+          "text": "Tres personas. Una oficina cerrada. Y en el cajón del Junior...",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "cajon",
+          "at": "start"
+        },
+        {
+          "id": "latas-cayendo",
+          "at": "start"
+        },
+        {
+          "id": "nota-grave",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:36–0:46",
+        "startSec": 36,
+        "endSec": 46
+      }
+    },
+    {
+      "id": "b07",
+      "name": "cliffhanger",
+      "visual": "Primer plano de las tijeras. Una gota de sudor cae en cámara lenta por la cara del Junior. Imagen congelada.",
+      "lines": [
+        {
+          "id": "b07-l01",
+          "speaker": "junior",
+          "text": "Puedo explicarlo.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b07-l02",
+          "speaker": "narrador",
+          "text": "O eso dijo.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "golpe-de-tambor",
+          "at": "start"
+        },
+        {
+          "id": "kronos-shutdown",
+          "at": "end",
+          "note": "apagado de Kronos cortado a la mitad"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "¿Fue el Junior?",
+          "style": "question"
+        },
+        {
+          "text": "Continuará...",
+          "style": "continuara"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:46–0:55",
+        "startSec": 46,
+        "endSec": 55
+      }
+    }
+  ],
+  "publish": {
+    "coverText": "\"Alguien desenchufó a la IA\" (Parte 1)",
+    "youtubeTitle": "Alguien desenchufó a la IA de la oficina | Parte 1",
+    "tiktokDescription": "Lunes, 8:59. Kronos no respondió. Alguien cortó el cable y nadie puede salir. Parte 1 de 6.",
+    "hashtags": [
+      "#miniserie",
+      "#misterio",
+      "#parte1",
+      "#claymation",
+      "#stopmotion",
+      "#humoroficina",
+      "#inteligenciaartificial",
+      "#kronos2"
+    ],
+    "pinnedComment": "¿Quién fue? Escribe tu sospechoso antes de la parte 2."
+  },
+  "costs": {
+    "estimated": null,
+    "actual": null
+  },
+  "cliffhanger": "¿Fue el Junior?",
+  "cliffhangerNote": "Aparecen unas tijeras con un pedazo de cable en el cajón del Junior.",
+  "sfxExtra": [
+    {
+      "id": "zumbido-electrico-que-se-apaga",
+      "description": "Zumbido eléctrico que se apaga"
+    },
+    {
+      "id": "taza-rompiendose",
+      "description": "taza rompiéndose"
+    },
+    {
+      "id": "nota-grave-de-suspenso",
+      "description": "Nota grave de suspenso"
+    },
+    {
+      "id": "chispazo",
+      "description": "Chispazo"
+    },
+    {
+      "id": "estatica",
+      "description": "estática"
+    },
+    {
+      "id": "cerradura",
+      "description": "Cerradura"
+    },
+    {
+      "id": "pitido-breve-de-la-impresora",
+      "description": "pitido breve de la Impresora"
+    },
+    {
+      "id": "cajon",
+      "description": "Cajón"
+    },
+    {
+      "id": "latas-cayendo",
+      "description": "latas cayendo"
+    },
+    {
+      "id": "nota-grave",
+      "description": "nota grave"
+    },
+    {
+      "id": "golpe-de-tambor",
+      "description": "Golpe de tambor"
+    }
+  ]
+}

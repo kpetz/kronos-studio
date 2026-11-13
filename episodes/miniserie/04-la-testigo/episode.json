@@ -1,0 +1,374 @@
+{
+  "id": "miniserie-04",
+  "series": "miniserie",
+  "number": 4,
+  "title": "La testigo",
+  "status": "draft",
+  "targetDurationSec": [
+    62,
+    70
+  ],
+  "tip": null,
+  "beats": [
+    {
+      "id": "b01",
+      "name": "recap",
+      "visual": "Repetición rápida: la Impresora se enciende sola.",
+      "lines": [
+        {
+          "id": "b01-l01",
+          "speaker": "narrador",
+          "text": "Anteriormente: la única testigo empezó a imprimir.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "rebobinado-de-cinta",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Anteriormente...",
+          "style": "recap"
+        },
+        {
+          "text": "Parte 4 de 6",
+          "style": "tag"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:00–0:04",
+        "startSec": 0,
+        "endSec": 4
+      }
+    },
+    {
+      "id": "b02",
+      "name": "desarrollo",
+      "visual": "Los tres rodean la Impresora. La hoja sale un milímetro y se detiene. El Jefe la sacude.",
+      "lines": [
+        {
+          "id": "b02-l01",
+          "speaker": "jefe",
+          "text": "¡Imprime! ¡Para ayer!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b02-l02",
+          "speaker": "narrador",
+          "text": "La testigo estaba lista para hablar. Le faltaba tinta magenta.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "pitido-de-error",
+          "at": "start"
+        },
+        {
+          "id": "grunido-de-la-impresora",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "Falta tinta magenta",
+          "style": "screen"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:04–0:12",
+        "startSec": 4,
+        "endSec": 12
+      }
+    },
+    {
+      "id": "b03",
+      "name": "desarrollo",
+      "visual": "El Junior saca el cartucho, lo sacude, lo sopla y lo vuelve a meter. Queda con la cara rosada. La Impresora continúa.",
+      "lines": [
+        {
+          "id": "b03-l01",
+          "speaker": "junior",
+          "text": "Ya quedó, creo.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "sacudida",
+          "at": "start"
+        },
+        {
+          "id": "soplido",
+          "at": "start"
+        },
+        {
+          "id": "chorro-de-tinta",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:12–0:20",
+        "startSec": 12,
+        "endSec": 20
+      }
+    },
+    {
+      "id": "b04",
+      "name": "desarrollo",
+      "visual": "La imagen sale por franjas: primero el piso, luego el cable, luego unas tijeras. El Jefe señala al Junior y el Junior al Jefe.",
+      "lines": [
+        {
+          "id": "b04-l01",
+          "speaker": "jefe",
+          "text": "¡Son tus tijeras!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l02",
+          "speaker": "junior",
+          "text": "¡Es su oficina!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b04-l03",
+          "speaker": "narrador",
+          "text": "La imagen salió línea por línea. Primero el cable. Luego las tijeras.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "impresora-linea-por-linea",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:20–0:29",
+        "startSec": 20,
+        "endSec": 29
+      }
+    },
+    {
+      "id": "b05",
+      "name": "desarrollo",
+      "visual": "Sale la última franja: la mano que sostiene las tijeras y una manga de cárdigan verde oliva. Acercamiento lento a la manga.",
+      "lines": [
+        {
+          "id": "b05-l01",
+          "speaker": "narrador",
+          "text": "Y luego, una manga. Verde.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "ultima-linea-de-impresion",
+          "at": "start"
+        },
+        {
+          "id": "silencio",
+          "at": "start"
+        },
+        {
+          "id": "grillo",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:29–0:38",
+        "startSec": 29,
+        "endSec": 38
+      }
+    },
+    {
+      "id": "b06",
+      "name": "desarrollo",
+      "visual": "El Jefe y el Junior giran muy despacio. Casandra, sentada, toma un sorbo de café. Su cartel \"Lo advertí\" está boca abajo sobre el escritorio.",
+      "lines": [
+        {
+          "id": "b06-l01",
+          "speaker": "junior",
+          "text": "Pero... tú eres la buena.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b06-l02",
+          "speaker": "jefe",
+          "text": "¡La única que trabajaba!",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "cuellos-que-crujen",
+          "at": "start"
+        },
+        {
+          "id": "sorbo-de-cafe",
+          "at": "start"
+        }
+      ],
+      "onScreenText": [],
+      "shots": [],
+      "source": {
+        "time": "0:38–0:47",
+        "startSec": 38,
+        "endSec": 47
+      }
+    },
+    {
+      "id": "b07",
+      "name": "cliffhanger",
+      "visual": "Casandra deja la taza, se acomoda los lentes y mira a cámara. Imagen congelada.",
+      "lines": [
+        {
+          "id": "b07-l01",
+          "speaker": "casandra",
+          "text": "Sí. Fui yo. Y lo volvería a hacer.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        },
+        {
+          "id": "b07-l02",
+          "speaker": "narrador",
+          "text": "Nadie lo vio venir. Excepto ella.",
+          "direction": null,
+          "audio": null,
+          "durationSec": null
+        }
+      ],
+      "sfx": [
+        {
+          "id": "golpe-de-tambor",
+          "at": "start"
+        },
+        {
+          "id": "kronos-shutdown",
+          "at": "end",
+          "note": "apagado de Kronos cortado"
+        }
+      ],
+      "onScreenText": [
+        {
+          "text": "¿Por qué lo hizo?",
+          "style": "question"
+        },
+        {
+          "text": "Continuará...",
+          "style": "continuara"
+        }
+      ],
+      "shots": [],
+      "source": {
+        "time": "0:47–0:56",
+        "startSec": 47,
+        "endSec": 56
+      }
+    }
+  ],
+  "publish": {
+    "coverText": "\"La Impresora lo vio todo\" (Parte 4)",
+    "youtubeTitle": "La foto que nadie esperaba | Parte 4",
+    "tiktokDescription": "La única testigo nunca habla. Pero imprime. Parte 4 de 6.",
+    "hashtags": [
+      "#miniserie",
+      "#misterio",
+      "#parte4",
+      "#claymation",
+      "#stopmotion",
+      "#humoroficina",
+      "#giroinesperado",
+      "#kronos2"
+    ],
+    "pinnedComment": "¿Alguien lo adivinó? Di la verdad."
+  },
+  "costs": {
+    "estimated": null,
+    "actual": null
+  },
+  "cliffhanger": "¿Por qué lo hizo?",
+  "cliffhangerNote": "Casandra confiesa: \"Sí. Fui yo. Y lo volvería a hacer.\"",
+  "sfxExtra": [
+    {
+      "id": "rebobinado-de-cinta",
+      "description": "Rebobinado de cinta"
+    },
+    {
+      "id": "pitido-de-error",
+      "description": "Pitido de error"
+    },
+    {
+      "id": "grunido-de-la-impresora",
+      "description": "gruñido de la Impresora"
+    },
+    {
+      "id": "sacudida",
+      "description": "Sacudida"
+    },
+    {
+      "id": "soplido",
+      "description": "soplido"
+    },
+    {
+      "id": "chorro-de-tinta",
+      "description": "chorro de tinta"
+    },
+    {
+      "id": "impresora-linea-por-linea",
+      "description": "Impresora línea por línea"
+    },
+    {
+      "id": "ultima-linea-de-impresion",
+      "description": "Última línea de impresión"
+    },
+    {
+      "id": "silencio",
+      "description": "silencio"
+    },
+    {
+      "id": "cuellos-que-crujen",
+      "description": "Cuellos que crujen"
+    },
+    {
+      "id": "sorbo-de-cafe",
+      "description": "sorbo de café"
+    },
+    {
+      "id": "golpe-de-tambor",
+      "description": "Golpe de tambor"
+    }
+  ]
+}
