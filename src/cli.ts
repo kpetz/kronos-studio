@@ -1,9 +1,10 @@
 import { existsSync } from "node:fs";
-import { relative } from "node:path";
+import { join, relative } from "node:path";
 import { buildSeries } from "./importer/build";
 import { writeImport } from "./importer/write";
 import { readXlsx } from "./importer/xlsx";
 import { paths, rootDir } from "./studio/paths";
+import { parseFormat, prepareRender, previewEpisode, renderEpisode, timingSummary } from "./studio/render";
 import { validateProject } from "./studio/validate";
 
 /** Commands named in CLAUDE.md that later build phases add. */
@@ -16,7 +17,6 @@ const PLANNED: Record<string, string> = {
   video: "Phase 3",
   sound: "Phase 4",
   sfx: "Phase 4",
-  render: "Phase 1",
   "publish-pack": "Phase 5",
   compile: "Phase 5",
 };
@@ -74,19 +74,59 @@ function runValidate(args: string[]): number {
   return report.ok ? 0 : 1;
 }
 
+function runRender(args: string[], preview: boolean): number {
+  const root = rootDir();
+  const query = args.find((a, i) => !a.startsWith("--") && args[i - 1] !== "--format");
+  if (!query) {
+    console.error(`Usage: pnpm studio ${preview ? "preview" : "render"} <episode> [--format vertical|wide]`);
+    return 1;
+  }
+  let prepared;
+  try {
+    prepared = prepareRender(query, parseFormat(args), root);
+  } catch (e) {
+    console.error((e as Error).message);
+    return 1;
+  }
+  const { episode, format } = prepared.props;
+  console.log(`${episode.id} "${episode.title}" — ${format}, status ${episode.status}`);
+  for (const line of timingSummary(prepared)) console.log(line);
+  if (prepared.timeline.beats.every((b) => b.shots.every((s) => !s.shot))) {
+    console.log("  no storyboard yet: every beat renders as a placeholder card (animatic)");
+  }
+  if (preview) return previewEpisode(prepared, root);
+
+  const code = renderEpisode(prepared, root);
+  if (code !== 0) {
+    console.error(`Render failed (exit ${code}).`);
+    return code;
+  }
+  console.log(`\nRendered ${relative(root, prepared.outFile)}`);
+  return 0;
+}
+
 function main(): number {
+  // Machine settings and keys live in .env, which is never committed.
+  const envFile = join(rootDir(), ".env");
+  if (existsSync(envFile)) process.loadEnvFile(envFile);
   const [command, ...args] = process.argv.slice(2);
   switch (command) {
     case "import":
       return runImport(args);
     case "validate":
       return runValidate(args);
+    case "render":
+      return runRender(args, false);
+    case "preview":
+      return runRender(args, true);
     case undefined:
     case "help":
     case "--help":
       console.log("Usage: pnpm studio <command>\n");
       console.log("  import [--force]      xlsx → data/series/*.json and episode folders");
       console.log("  validate [episode]    schema and canon checks (all episodes when omitted)");
+      console.log("  render <episode> [--format vertical|wide]   render to out/<id>-<format>.mp4");
+      console.log("  preview <episode> [--format vertical|wide]  open the episode in Remotion Studio");
       console.log(`\nNot built yet: ${Object.keys(PLANNED).join(", ")}`);
       return 0;
     default:
